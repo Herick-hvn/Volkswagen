@@ -162,7 +162,7 @@ namespace VolkswagenAPI.Controllers
             }
 
             var erroresPersonal = await _context.ErrorPersonals
-                .Where(e => e.Nivel <= nivelUsuario.Value)
+                .Where(e => e.Nivel == nivelUsuario.Value)
                 .ToListAsync();
 
             return erroresPersonal;

@@ -161,7 +161,7 @@ namespace VolkswagenAPI.Controllers
             }
 
             var errorHerramientas = await _context.ErrorHerramienta
-                .Where(e => e.Nivel <= nivelUsuario.Value)
+                .Where(e => e.Nivel == nivelUsuario.Value)
                 .ToListAsync();
 
             return errorHerramientas;

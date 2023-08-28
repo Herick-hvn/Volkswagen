@@ -161,7 +161,7 @@ namespace VolkswagenAPI.Controllers
             }
 
             var erroresLineaProduccion = await _context.ErrorLineaProduccions
-                .Where(e => e.Nivel <= nivelUsuario.Value)
+                .Where(e => e.Nivel == nivelUsuario.Value)
                 .ToListAsync();
 
             return erroresLineaProduccion;

@@ -11394,11 +11394,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\losim\\Desktop\\VolkswagenAPI\\VolkswagenAPI\\VolkswagenAPI.csproj",
+      "projectUniqueName": "C:\\Users\\losim\\Desktop\\VolksWagen\\API\\VolkswagenAPI\\VolkswagenAPI.csproj",
       "projectName": "VolkswagenAPI",
-      "projectPath": "C:\\Users\\losim\\Desktop\\VolkswagenAPI\\VolkswagenAPI\\VolkswagenAPI.csproj",
+      "projectPath": "C:\\Users\\losim\\Desktop\\VolksWagen\\API\\VolkswagenAPI\\VolkswagenAPI.csproj",
       "packagesPath": "C:\\Users\\losim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\losim\\Desktop\\VolkswagenAPI\\VolkswagenAPI\\obj\\",
+      "outputPath": "C:\\Users\\losim\\Desktop\\VolksWagen\\API\\VolkswagenAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\losim\\AppData\\Roaming\\NuGet\\NuGet.Config",
